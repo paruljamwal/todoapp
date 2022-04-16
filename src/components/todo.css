@@ -44,6 +44,8 @@ input{
 
 .Done{
     background-color: rgb(153, 245, 153);
+    text-decoration: line-through;
+    
 }
 
 .NotDone{
@@ -52,14 +54,13 @@ input{
 
 .list{
     margin-top: 20px;
-    border: 0px solid rgb(235, 213, 213);
+    border: 2px dotted #7208f3;
     background-color: #ebdbff;
     width: 95%;
     padding: 5px;
     margin-left: 5px;
     padding-top: 10px;
     text-align: center;
-
     height: 40px;
     border-radius: 15px;
 }
@@ -70,6 +71,7 @@ input{
     border-radius: 15px;
     margin-bottom: 5px;
     margin-left: 100px;
+    border: 3px double rgb(3, 235, 3);
 }
 
  #delete{

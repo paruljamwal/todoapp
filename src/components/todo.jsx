@@ -5,7 +5,7 @@ import {nanoid} from 'nanoid';
 import './todo.css'
  //todo is a parent
 function Todo() {
-    <script src="https://kit.fontawesome.com/33e812d5a4.js" crossorigin="anonymous"></script>
+    
     const [todoList,setTodoList]=useState([]);
 
     //callback fun -----get data from todolist (child---parent);

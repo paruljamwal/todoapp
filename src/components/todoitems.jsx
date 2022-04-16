@@ -8,8 +8,10 @@ export const TodoItems=({todo,handelstatus})=>{
             {/* {todo.title}-{todo.status ? "Done" : "Not Done"} <button>Toggle</button> */}
             {/* <div>id:{todo.id}</div> */}
             {/* goto parent list and find the element by id */}
-           {/* <button id='delete' onClick={()=>handelstatus(todo.id)}>X</button> */}
-            {todo.title}-{todo.status ? "Done" : "NotDone"} <button className={todo.status ? "Done" : "NotDone"} id="toggle"   onClick={()=>handelstatus(todo.id)}><i class="fa-solid fa-toggle-off"></i>Toggle</button>
+            {/* <button id='delete' onClick={()=>handelstatus(todo.id)}>X</button> */}
+            {todo.title}----------{todo.status ? "Done" : "NotDone"} 
+            <button className={todo.status ? "Done" : "NotDone"} id="toggle" onClick={()=>handelstatus(todo.id)}>
+            Toggle</button>
            
         
         </div>
